@@ -15,20 +15,24 @@ Dois padrões importantes na engine implementada são:
 - Entidade.followMouse
 
 ### GameObject extends Entities
+
 - GameObject.sprite
 - GameObject.width
 - GameObject.height
 
 ### Rect extends Entities
+
 - Rect.color
 - Rect.width
 - Rect.height
 
 ### Circle extends Entities
+
 - Circle.color
 - Circle.radius
 
 ### Text extends Entities
+
 - Text.color
 - Text.text
 
