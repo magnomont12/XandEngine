@@ -1,5 +1,10 @@
 # XandEngine
-Uma Engine simples para jogos utilizando javascript
+Uma Engine simples para jogos utilizando javascript. Para acessar um exemplo da Engine você pode acessar o [GitHub Pages](https://magnomont12.github.io/XandEngine/)
+
+## Padroões de projeto
+Dois padrões importantes na engine implementada são:
+- MainLoopGame para que o processamento do computador não influencie na velocidade de uma entidade, por exemplo.
+- Observer para captar os eventos que acontecem durante o jogo. 
 
 ## ENTIDADES:
 
@@ -10,22 +15,22 @@ Uma Engine simples para jogos utilizando javascript
 - Entidade.followMouse
 
 ### GameObject extends Entities
-GameObject.sprite
-GameObject.width
-GameObject.height
+- GameObject.sprite
+- GameObject.width
+- GameObject.height
 
 ### Rect extends Entities
-Rect.color
-Rect.width
-Rect.height
+- Rect.color
+- Rect.width
+- Rect.height
 
 ### Circle extends Entities
-Circle.color
-Circle.radius
+- Circle.color
+- Circle.radius
 
 ### Text extends Entities
-Text.color
-Text.text
+- Text.color
+- Text.text
 
 ## COLISÃO
 Para as colisões se faz necessário implementar collision(AABB) e collider() para cada Classe que irá herdar de Entidades,
